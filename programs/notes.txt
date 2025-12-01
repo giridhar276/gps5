@@ -1,0 +1,139 @@
+python programming 
+data analytics using pandas ( dataframe and series operations)
+NLP ( Natural language processing)
+machine learning usecases ( model is created from one single file )
+
+deep learning usecases ( image processing , text processing)
+prompt engineering 
+
+
+gen ai ( models are already trained on internet data)
+langchain, llamaindex ,langgraph
+openai ,gpt , huggingface
+api calls
+sentiment analysis 
+language transilation 
+Q&A 
+RAG
+- embeddings, vector dbs, chunking
+- hybrid search
+- finetuning
+RAG with memory mangement 
+chatbot development
+agents
+agentic ai  ( no code)
+- n8n
+- flowise
+agentic ai ( with code ) ( langchain, langgraph)
+- agent loop ( plan --> act--> observe --> refelect)
+memory types 
+agent desing patterns 
+- react , plan and execute
+- multi agent collaboration 
+- human in the loop appovals
+- observabitlity 
+- workflows
+
+
+
+
+2010-2015 - cloud
+2016-2022 - ML,DL
+2018,2019
+2022-
+
+
+
+
+
+
+
+C - datatypes
+---
+int a = 10 ;
+float b = 6.65;
+char 
+double 
+
+Everything in python is object 
+Every object contains methods 
+
+
+python - objects 
+---------------
+number 
+string 
+list
+tuple
+dictionary 
+set 
+
+number 
+-----
+number can be integer or decimal or octal or hexa
+
+a = 10
+b = 6.65
+
+
+string 
+-----
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "unix shell scripting"
+cname = """java programming"""
+
+list ( array in C)
+----------------
+list contains set of elements.
+elements can be numbers or strings or any combination.
+list is defined in [].
+
+alist = [10,20,30,40]
+blist = ["python","java"]
+clist = [40,56.54,"java",[20,2]]
+
+
+tuple  ( immutable , unchangeable , uneditable)
+-----
+tuple contains set of elements.
+elements can be numbers or strings or any combination.
+tuple is defined in ().
+** elements inside tuple cant be modified directly ****
+
+atup = (30,40,50,50)
+btup = ("unix","oracle")
+ctup = ((10,20),(30,40),(50,60))
+dtup = (30,40,"java",3.4,(40,4),[20,30])
+
+
+dictionary ( json  hash   hashmap   pairs   items   associativearray)
+-----------
+dictionary contains keys and values.
+In dictionary .. keys are unique 
+key can be number or string to identify the value 
+value can be number or string or list or tuple or dictionary
+
+syntax:  object = { key:value , key:value , key:value }
+example:   book = {"chap1":10 ,"chap2":20 ,"chap3":30 }
+           data = {1:2,3:4,5:6}
+           bookinfo = {"chap1":["rita","US",100],"chap2":["gita","UK",200]}
+
+
+  index 
+  -----
+chap1   10
+chap2   20
+chap3   30
+
+set ( venn diagrams)
+----
+set is UNORDERED collection of UNIQUE elements of SAME type.
+
+aset = {10,20,10,10,20,30}
+
+
+
+
+
