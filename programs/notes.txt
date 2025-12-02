@@ -135,5 +135,65 @@ aset = {10,20,10,10,20,30}
 
 
 
+conditions
+---------
+if condition 
+if-else condition 
+if-elif-elif-elif-elif-elif-else condition
+
+iterations
+----------
+for loop
+while loop
+
+
+
+level1 
+level1
+level1
+level1
+if cond:
+    level2 
+    level2
+    level2
+level1
+level1 
+
+
+
+
+for ( i = 1 ;i < 10 ; i++ )
+{
+
+}
+
+
+C programming 
+============
+int add(int a, int b)
+{
+  int c = a + b;
+  return c
+}
+
+
+
+total = add(10,20);
+
+
+function | definition | block | subroutine | submodule 
+---------------------------------------------------
+
+builtin functions 
+user defined functions 
+
+
+
+user defined function 
+--------------------
+fixed arguments
+keyword arguments 
+default arguments
+variable length arguments
 
 
