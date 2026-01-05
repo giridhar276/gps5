@@ -197,3 +197,259 @@ default arguments
 variable length arguments
 
 
+
+
+
+# libraries 
+- builtin libraries 
+- third party libraries 
+analytics - pandas,numpy,scipy 
+
+
+
+C - heading files 
+------------------
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<graphics.h>
+#include<string.h>
+
+
+python - libraries 
+------------------
+
+builtin libraries 
+-----------------
+all the builtin libraries that are generally used  are installed with python .
+3000+
+
+
+
+third party libraries 
+---------------------
+Depending on the requirement developer has to install 
+the third party library from www.pypi.org using pip tool.
+
+
+
+https://pypi.org/
+------------------------
+test automation
+system automation 
+web automation 
+scraping 
+GUI tools
+web development 
+data analytics 
+machin learning 
+deep learning 
+gen ai 
+database libraries 
+
+
+
+################################### frequently used builtin libraries #############################
+
+os         : os level activities
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+How to install third party library 
+-------------------------------
+
+method1: using pip tool ( it downloads and installs the library from internet )
+
+
+pip install <packagename> # syntax
+pip install matplotlib      ( windows)
+pip3 install matplotlib     ( mac )
+
+pip install pandas 
+
+
+
+method2: downloading and installing manually 
+
+
+
+
+task/requirement =.      core programming      + good understanding of libraries   +  domain expertise 
+                         ( procedural or oop)
+
+
+pandas 
+-------
+
+             R programming / SAS 
+
+ 
+
+ 2000--------------------------------2010--------------------------------------------------2025
+       web development               pandasV1.0
+       automations
+       numpy 
+       scipy
+       
+
+
+100 lines. java 
+10 lines   python 
+5 lines.   R 
+
+
+langchain,langgraph,llamaindex ( gen ai libraries for llms)
+  |
+keras, tensorflow,pytorch ( DL libraries)
+  |
+sklearn,statsmodel   ( ML libraries )
+  |
+matplotlib,seaborn,plotly,bokeh ( visualisation libraries)
+  |
+pandas 
+  |
+scipy 
+  |
+numpy 
+
+python
+
+
+next session 
+---------------
+pandas 
+numpy 
+scipy 
+
+
+python - objects 
+-----------
+number 
+string 
+list 
+tuple 
+dictionary 
+set 
+
+pandas - data structures 
+-------------------------
+series ( 1 - D )
+dataframe ( 2 - D )
+panel
+
+
+
+hello.py ( automations, programming , web development)
+
+hello.ipynb 
+
+
+
+
+Oracle | mysql | mongodb | db2 | dymanodb |
+
+
+database type        pythonlibrary
+------------------------------------
+oracledatabase         cx_Oracle 
+MySQL datbase          pymysql 
+MS SQL Server          pymssql 
+MONgodb                pymongo 
+SQLite3 ( inbuiltdb).  sqlite3
+(lightweighted db)
+
+
+
+MySQL server 
+----------------
+
+
+step1: creating database 
+----------------------------
+create database empdb ;
+
+
+step2: access your database 
+---------------------------
+use empdb ;
+
+step3: create table 
+--------------------------
+CREATE TABLE IF NOT EXISTS empinfo (
+  `age` INT,
+  `workclass` VARCHAR(32),
+  `fnlwgt` INT,
+  `education` VARCHAR(32),
+  `educational-num` INT,
+  `marital-status` VARCHAR(32),
+  `occupation` VARCHAR(32),
+  `relationship` VARCHAR(32),
+  `race` VARCHAR(32),
+  `gender` VARCHAR(16),
+  `capital-gain` INT,
+  `capital-loss` INT,
+  `hours-per-week` INT,
+  `native-country` VARCHAR(64),
+  `income` VARCHAR(16)
+);
+
+
+
+
+
+
+insert into empinfo values("private","inter");
+
+
+
+
+mysql
+
+python library
+
+
+hello.py
+
+hello.ipynb 

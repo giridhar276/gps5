@@ -1,9 +1,12 @@
 ###############
 # if condition
 if 1 < 2:
+        
     print("true")
     print("inside if")
     print("still inside if")
+
+
 
 
 name = "python programming"
